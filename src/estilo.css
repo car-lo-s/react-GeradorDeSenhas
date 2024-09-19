@@ -169,8 +169,27 @@ input[type="checkbox"]:checked::after {
     
 }
 
-@media (max-width: 800px){
+@media (max-width: 700px){
     .box{
+        /* min-width: 200px; */
+        min-width: 100px;
         width: 90%;
     }
+    .box h1{
+        font-size: 25px;
+        
+    }
+    .boxresultado{
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .boxresultado input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .boxresultado button{
+        padding: 15px;
+    }
+    
 }
